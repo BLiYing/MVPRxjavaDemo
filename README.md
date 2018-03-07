@@ -35,7 +35,9 @@ Res的Anim中。
 ### 7.	这个checkupdatelibrary是更新库
 
 ### 8.	Mvp的内存泄漏管理。必须实现
-![image](https://github.com/BLiYing/MVPRxjavaDemo/blob/master/app%2Fsreenshots%2Fpic1.png)
+![image](https://github.com/BLiYing/MVPRxjavaDemo/blob/master/app%2Fsreenshots%2Fpic1.png)destroy()方法（可以放入basepresent中继承）
+
+### 9.  统一使用viewsub占位文件
 
 ## 三 关于引用第三方库配置文件及共用工具的说明
 
