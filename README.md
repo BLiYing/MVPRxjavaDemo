@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # testBottomNavigationBar是仿照TapTap做的一个demo,运用了Rxjava+Retrofit+MaterialDesign知识
 ---------------------------------
 ##项目截图
@@ -44,3 +45,7 @@ https://github.com/Ashok-Varma/BottomNavigation
 视频页面展示还在继续开发当中
 
 ##[我的博客](http://blog.csdn.net/libeyond_/article/details/60351885)
+=======
+# MVPRxjavaDemo
+MVP架构+Retrofit+Rxjava+Okhttp
+>>>>>>> 583c8015cc5af884c808b5f492ca60eab2134d07
