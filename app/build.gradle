@@ -1,0 +1,108 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        applicationId rootProject.ext.android.applicationId
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+    }
+
+    //正式签名
+    /*signingConfigs {
+        release {
+
+            storeFile file(RELEASE_STOREFILE)
+            storePassword RELEASE_STORE_PASSWORD
+            keyAlias RELEASE_KEY_ALIAS
+            keyPassword RELEASE_KEY_PASSWORD
+        }
+    }*/
+
+    buildTypes {
+
+        //默认debug编译时
+        debug {
+            // 显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            versionNameSuffix "-debug"
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+//            signingConfig signingConfigs.debug
+        }
+        release {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            // 不混淆
+            minifyEnabled false
+            zipAlignEnabled false
+            // 移除无用的resource文件
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+//            signingConfig signingConfigs.release
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+        ignoreWarnings true
+    }
+
+    //用来关闭Android Studio的PNG合法性检查的，直接不让它检查。
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+//        exclude 'META-INFTICE'
+//        exclude 'META-INFTICE.txt'
+    }
+
+}
+repositories {
+    jcenter()
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+configurations.all {
+    resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.0'
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':checkupdatelibrary')
+    implementation project(':basesdk')
+    compile rootProject.ext.dependencies.gson
+    compile rootProject.ext.dependencies.jsoup
+    compile rootProject.ext.dependencies.glide
+    compile rootProject.ext.dependencies.bottom_navigation_bar
+    compile rootProject.ext.dependencies.butterknife
+    annotationProcessor rootProject.ext.dependencies.butterknife_compiler
+    compile "com.android.support:support-v4:${android_support_version}"
+    compile "com.android.support:appcompat-v7:${android_support_version}"
+    compile "com.android.support:recyclerview-v7:${android_support_version}"
+    compile "com.android.support:design:${android_support_version}"
+    compile "com.android.support:cardview-v7:${android_support_version}"
+
+//    compile rootProject.ext.dependencies.android_spinKit
+    compile rootProject.ext.dependencies.hawk
+    compile rootProject.ext.dependencies.easyrecyclerview
+    compile rootProject.ext.dependencies.permission_yzj
+    compile rootProject.ext.dependencies.constraint_layout
+
+    testCompile 'junit:junit:4.12'
+}

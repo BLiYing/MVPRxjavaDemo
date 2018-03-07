@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CheckUpdateLibrary</string>
+    <string name="updatelibrary_pushtime">Fecha de publicación</string>
+    <string name="updatelibrary_versionname">Versión</string>
+    <string name="updatelibrary_size">Tamaño</string>
+    <string name="updatelibrary_onlywifi">Actualmente es WiFi como el ambiente de red, puede ser de confianza para descargar.</string>
+    <string name="updatelibrary_mobile">Actualmente es la red móvil como el ambiente de red, la descarga consumirá los datos.</string>
+    <string name="updatelibrary_retry">Actualmente no hay conexión a Internet, reintentarlo al abrir el Internet.</string>
+    <string name="updatelibrary_nonetwork">Actualmente no hay conexión a Internet </string>
+    <string name="updatelibrary_install">Hacer clic para instalar</string>
+    <string name="updatelibrary_isdownloading">Descargando</string>
+    <string name="updatelibrary_retrydownloading">Descargar de nuevo</string>
+    <string name="updatelibrary_background">Descargando en el trasfondo para usted...</string>
+    <string name="updatelibrary_content">Actualizar contenido:</string>
+    <string name="updatelibrary_btn_cancel">No</string>
+    <string name="updatelibrary_sure">Sí</string>
+    <string name="updatelibrary_quit">Salir de App</string>
+    <string name="updatelibrary_errorcode">Código de error</string>
+    <string name="updatelibrary_downloaderror">Fallo en descargar, hacer clic en descargar de nuevo</string>
+    <string name="updatelibrary_downloadsuccess">La descarga terminada, hacer clic en instalar</string>
+</resources>

@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">福州</string>
+    <string name="action_save">save</string>
+    <string name="action_share">share</string>
+    <string name="main_home">首页</string>
+    <string name="main_date">日程</string>
+    <string name="main_mine">我的</string>
+    <string name="main_cardbag">卡包</string>
+    <string name="main_recharge">充值</string>
+    <string name="main_ticket">门票</string>
+    <string name="action_about">关于我</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">large_text</string>
+    <string name="version_str">PrettyGirls\npleasecallmecoder</string>
+    <string name="no_network">请先连接网络</string>
+
+    <string name="loading">加载中...</string>
+    <string name="tryagain">数据加载失败，点击重试</string>
+
+    <string name="title_btn">下载</string>
+
+    <string name="excusme">温馨提示</string>
+    <string name="excusme_content">需要获取文件读取权限</string>
+    <string name="excusme_cancel">取消</string>
+    <string name="excusme_sure">确定</string>
+    <string name="error_load">出错了喵...( ＞ω＜)</string>
+    <string name="no_more">没有更多了喵...ヾ (o ° ω ° O ) ノ</string>
+    <string name="searchhint">请输入景点门票/目的地</string>
+    <string name="no_data">暂无数据</string>
+
+
+    <string name="plan_orderdate">订单日期</string>
+    <string name="plan_orderusedate">使用日期</string>
+
+    <array name="setting">
+
+        <item>申请卡片</item>
+        <item>我的订单</item>
+        <item>绑定ETC</item>
+        <item>我的积分</item>
+        <item>常用信息设置</item>
+        <item>常见问题</item>
+        <item>关于我们</item>
+    </array>
+    <string name="minecard">申请卡片</string>
+    <string name="mineorder">我的订单</string>
+    <string name="mineetc">绑定ETC</string>
+    <string name="minepoint">我的积分</string>
+    <string name="minemessage">常用信息设置</string>
+    <string name="minequestion">常见问题</string>
+    <string name="mineaboutas">关于我们</string>
+    <string name="mine_login">登录</string>
+    <string name="order_title">我的订单</string>
+    <string name="order_appointday">预定日期</string>
+
+
+    <!--权限-->
+    <string name="permission_location_message">位置信息权限：获取当前位置的周边公交站点</string>
+    <string name="permission_location_no">位置信息权限</string>
+    <string name="permission_save_message">存储空间权限：缓存图片和数据，降低流量消耗</string>
+    <string name="permission_save_no">存储空间权限</string>
+    <string name="permission_phone_message">手机/电话权限：校验IMEI码，用于车辆到站提醒</string>
+    <string name="permission_phone_no">手机/电话权限</string>
+    <string name="cannot_get_location_no_permission">未获取定位权限，无法定位当前城市</string>
+    <string name="permission_camera_message">相机权限：获取相机的使用，用于拍照</string>
+    <string name="permission_camera_no">相机权限</string>
+    <string name="permission_location_city">位置信息权限：获取当前城市</string>
+    <string name="btn_refuse">拒绝</string>
+    <string name="prompt_info">通卡出行需要下列权限才能正常是使用</string>
+    <string name="permission_path">路径：设置>应用>通卡出行>权限</string>
+    <string name="accept_permission">请赋予权限</string>
+
+
+    <!--登陆页面-->
+    <string name="login_title">账号登录</string>
+    <string name="phone_login_title">手机登录</string>
+    <string name="phone_login_subtitle">手机验证码登录</string>
+
+</resources>

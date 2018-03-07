@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CheckUpdateLibrary</string>
+    <string name="updatelibrary_pushtime">release time</string>
+    <string name="updatelibrary_versionname">version</string>
+    <string name="updatelibrary_size">size</string>
+    <string name="updatelibrary_onlywifi">WiFi network currently, safe to download.</string>
+    <string name="updatelibrary_mobile">Mobile network currently, downloading will consume flow!</string>
+    <string name="updatelibrary_retry">No internet connection currently, please enable the network and try again!</string>
+    <string name="updatelibrary_nonetwork">No internet connection currently</string>
+    <string name="updatelibrary_install">Click to install</string>
+    <string name="updatelibrary_isdownloading">Downloading</string>
+    <string name="updatelibrary_retrydownloading">Download again</string>
+    <string name="updatelibrary_background">Downloading for you in the backstage ...</string>
+    <string name="updatelibrary_content">Update content:</string>
+    <string name="updatelibrary_btn_cancel">No</string>
+    <string name="updatelibrary_sure">Update</string>
+    <string name="updatelibrary_quit">Exit</string>
+    <string name="updatelibrary_errorcode">error code</string>
+    <string name="updatelibrary_downloaderror">Failed to download, click to download again</string>
+    <string name="updatelibrary_downloadsuccess">Downloaded successfully, click to install</string>
+</resources>

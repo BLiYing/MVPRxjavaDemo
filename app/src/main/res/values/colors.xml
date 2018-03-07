@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F5F5F5</color>
+    <color name="colorPrimaryDark">#7D7D7D</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--背景色-->
+    <color name="backgroundColor">#FFFFFF</color>
+
+    <color name="red">#ffff4444</color>
+    <color name="teal">#00796B</color>
+    <color name="brown">#8D6E63</color>
+    <color name="blue">#2196F3</color>
+    <color name="grey">#607D8B</color>
+    <color name="orange">#F57C00</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="navigation_bg">#F5F5F5</color>
+    <color name="title_color">#ffffff</color>
+    <color name="tablayout_title_color">#7D7D7D</color>
+
+    <!--分割线颜色-->
+    <color name="division">#E8E8E8</color>
+
+    <!--按钮颜色-->
+    <color name="theam_red">#ED4747</color>
+
+    <!--toorbar按钮颜色-->
+    <color name="transparent">#00000000</color>
+    <color name="theme_trans">#4c000000</color>
+    <color name="pieline_color">#00000000</color>
+
+    <!--permissionDialog-->
+    <color name="color_dialog_gray">#ededf3</color>
+    <color name="color_dialog_content">#ed7861</color>
+    <color name="color_dialog_title">#303030</color>
+    <color name="color_dialog_content_prompt">#343434</color>
+
+    <color name="color_type_info">#79b3e4</color>
+    <color name="color_type_help">#e8bd4b</color>
+    <color name="color_type_wrong">#ed7861</color>
+    <color name="color_type_warning">#e8bd4b</color>
+    <color name="color_type_success">#90b06e</color>
+    <color name="main_search_textcolor">#4c4c4c</color>
+    <color name="main_textcolor">#4c4c4c</color>
+
+    <!--permissionDialog-->
+
+</resources>

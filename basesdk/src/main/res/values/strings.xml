@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BaseSdk</string>
+    <string name="exit_again">再按一次退出程序</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:fitsSystemWindows="false"
+    android:clipToPadding="false"
+
+    >
+    <include
+        android:id="@+id/toorbarplan"
+        layout="@layout/toolbar"/>
+
+    <ListView
+        android:layout_margin="20dp"
+        android:layout_below="@+id/toorbarplan"
+        android:visibility="visible"
+        android:id="@+id/planListview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#00000000"
+        android:dividerHeight="0dp" />
+
+    <include layout="@layout/viewsub"
+
+        />
+</RelativeLayout>

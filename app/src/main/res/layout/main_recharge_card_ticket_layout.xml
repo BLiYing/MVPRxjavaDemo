@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/whentoorbarisshow_ly"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundColor"
+    android:padding="5dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/cardbagTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/selector_bg_citychange_rip"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/main_cardbag"
+        android:gravity="center"
+        android:text="@string/main_cardbag"
+        android:textColor="@color/main_textcolor"
+        android:textSize="12sp"
+
+        />
+
+    <TextView
+        android:id="@+id/rechargeTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/selector_bg_citychange_rip"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/main_recharge"
+        android:gravity="center"
+        android:text="@string/main_recharge"
+        android:textColor="@color/main_textcolor"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/ticketTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/selector_bg_citychange_rip"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/main_ticket"
+        android:gravity="center"
+        android:text="@string/main_ticket"
+        android:textColor="@color/main_textcolor"
+        android:textSize="12sp" />
+
+</LinearLayout>
